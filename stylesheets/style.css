@@ -2,11 +2,15 @@ body {
     background-image: url("https://www.mediacomponents.com/wp-content/uploads/2013/10/slider-bg33l.jpg");
     font-size: 100%;
 }
-.button {
+h1 {
+    text-align: center;
+}
+/* Buttons */
+.button, .button2 {
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
-  border: none;
+  border: 3px solid white;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
@@ -17,14 +21,14 @@ body {
   margin: 5px;
 }
 
-.button span {
+.button, .button2 span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.button, .button2 span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -33,11 +37,12 @@ body {
   transition: 0.5s;
 }
 
-.button:hover span {
+.button, .button2:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.button, .button2:hover span:after {
   opacity: 1;
   right: 0;
 }
+
