@@ -5,6 +5,9 @@ body {
 h1 {
     text-align: center;
 }
+p {
+    text-align:center;
+}
 /* Buttons */
 .button, .button2 {
   display: inline-block;
